@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    width: 320px;
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+  
+.drop-zone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+  
+.drop-zone.dragover {
+    background-color: #f0f0f0;
+}
+
+input {
+    margin-top: 10px;
+}
+    
+button {
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkred;
+}
